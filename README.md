@@ -1,10 +1,13 @@
 # TW_stocks_stastistic v.1.0
 
 
-TW_stocks_stastistic is a python program that allows you to search Taiwan stocks. 
+## Information
+TW_stocks_stastistic is a python program that allows you to search Taiwan stocks, plot and save to excel. 
 
 
-stocks_main.py includes functions:
+
+## How to use?
+Run "python3 stocks_main.py". stocks_main.py includes functions:
 * Search company codes or company name
 * Save stocks data into csv file
 * Search data for a given company code on a specific date
@@ -14,7 +17,7 @@ stocks_main.py includes functions:
 * Delete data from database 
 
 
-stocks_mySQL.py includes functions:
+Run "python3 stocks_mySQL.py".stocks_mySQL.py includes functions:
 * Upload stocks data to local MySQL
 * Create table
 * Search stocks data from local MySQL
@@ -22,9 +25,14 @@ stocks_mySQL.py includes functions:
 * Enter a specific MySQL syntax
 
 
-stocks_data_mySQL.py includes fuctions:
+Run "python3 stocks_data_mySQL". stocks_data_mySQL.py includes fuctions:
 * Upload stocks_data (company codes and company names) to MySQL
 
 
-NOTE: more functions will be updated in the future version
+## Update
+
+
+
+## NOTE
+1. More functions will be updated in the future version
 
